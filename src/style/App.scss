@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+    height: 20px;
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    &__logo{
+        text-decoration: none;
+        background-color: #fff;
+        font-size: 20px;
+        font-weight: 900;
+        height: 10px;
+    }
+    &__nav{
+        width: 600px;
+        display:  flex;
+        column-gap: 20px;
+        justify-content: center;
+        background-color: #fff;
+        &-link{
+            background-color: #fff;
+            font-weight: 700;
+            height: 10px;
+        }
+    }
+    &__option{
+        width: 150px;
+        display:  flex;
+        column-gap: 20px;
+        justify-content: center;
+        background-color: #fff;
+        &-api{
+            background-color: #fff;
+            font-weight: 700;
+            height: 10px;
+    }
+}
+}
+
+
+
+.fon{
+    background-image: url("../img/fon.jfif");
+    max-width: 1200px;
+    height: 600px;
+    background-size: cover;
+}
